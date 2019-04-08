@@ -1,5 +1,14 @@
 # Stock Market Recommendation App
 
+There are a few important prerequisites which should be prepared or answered before deployment:
+
+## React Native support for ios
+
+- You must know how to configure and run react native project for ios.
+- install dependecies using `yarn install`
+- link dependecies using `react-native link`
+
+
 ## Available Scripts
 
 In the project directory, you can run:
