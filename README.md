@@ -7,7 +7,7 @@ There are a few important prerequisites which should be prepared or answered bef
 - You must know how to configure and run react native project for ios.
 - install dependecies using `yarn install`
 - link dependecies using `react-native link`
-- iOS linker error: library not found for -ljschelpers #4691 (https://github.com/wix/react-native-navigation/issues/4691)
+- iOS linker error: library not found for -ljschelpers #4691 (https://github.com/wix/react-native-navigation/issues/4691#issuecomment-475929843)
 
 
 ## Available Scripts
