@@ -36,6 +36,7 @@ logmein-smr
 ├── ios             # ios specific code
 ├── android         # android specific code
 ├── .gitignore      # gitignore
+├── inaction.gif    # screen record .gif image
 ├── .babelrc        # babel configuration
 ├── app.json        # app config
 ├── jest.config.js  # jest configuration
@@ -46,4 +47,5 @@ logmein-smr
 
 ## In Action
 
+![](inaction.gif)
 
