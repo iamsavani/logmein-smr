@@ -1,0 +1,20 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "extensions": [".ios.js", ".android.js", ".js", ".json", ".ts", ".tsx"],
+        "root": ["./app"],
+        "alias": {
+          "@screens": "logmein-smr/app/screens",
+          "@components": "logmein-smr/app/components",
+          "@lib": "logmein-smr/app/lib",
+          "@assets": "logmein-smr/app/assets",
+          "@i18n": "logmein-smr/app/i18n",
+          "@data": "logmein-smr/app/data"
+        }
+      }
+    ]
+  ]
+}
