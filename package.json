@@ -58,5 +58,8 @@
     "assets": [
       "./app/assets/fonts/"
     ]
+  },
+  "jest": {
+    "preset": "react-native"
   }
 }

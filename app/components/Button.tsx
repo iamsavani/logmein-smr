@@ -1,6 +1,5 @@
 import * as React from "react";
 import { View, StyleSheet, Text } from "react-native";
-import { t } from "@i18n/index";
 
 interface Props {
   status: number;
@@ -16,14 +15,14 @@ export default class Button extends React.PureComponent<Props, State> {
   render() {
     const { status = 0 } = this.props;
 
-    let text = t("BUY"),
+    let text = "BUY",
       style = styles.buy;
     if (status == 1) {
-      text = t("SELL");
+      text = "SELL";
       style = styles.sell;
     }
     if (status == 2) {
-      text = t("HOLD");
+      text = "HOLD";
       style = styles.hold;
     }
 
