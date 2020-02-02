@@ -28,7 +28,7 @@ Launches the test runner in the interactive watch mode.
 
 ## Folder Structure
 
-The structure of the Valegoo and explanation follows:
+The structure of the app and explanation follows:
 
 ```bash
 logmein-smr
